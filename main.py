@@ -113,6 +113,6 @@ with st.expander("ℹ️ Sobre la Aplicación"):
     **Detalles del Modelo:**
 
     * **Tipo de Modelo:** `Regression Model` (XGBoost Optimizado)
-    * **Propósito:** Predecir el valor continuo de la potencia de bomveo en un proceso industrial.
+    * **Propósito:** Predecir el valor continuo de la potencia de bombeo en un proceso industrial.
     * **Características Usadas:** Presión, Temepratura y Flujo.
     """)

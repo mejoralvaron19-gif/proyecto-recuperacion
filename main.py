@@ -92,7 +92,7 @@ if model is not None:
             prediction_value = model.predict(df_input)
             st.subheader("📈 Resultado de la Predicción")
             # Mostramos el resultado en un cuadro de éxito, formateado a dos decimales.
-            st.success(f"**Potencia de Bombeo Predicha:** `{prediction_value[0]:.2f}%`")
+            st.success(f"**Potencia de Bombeo Predicha:** `{prediction_value[0]:.2f}HP`")
             st.info("Este valor representa el valor estimado de la potencia de bombeo que se desarrollará en la operación.")
         except Exception as e:
             st.error(f"Ocurrió un error durante la predicción: {e}")
